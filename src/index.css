@@ -1,0 +1,27 @@
+.Buttonbody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    column-gap: 10px;
+    flex-direction: column;
+}
+.Button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    column-gap: 10px;
+   
+}
+.Buttonbody button{
+    padding: 10px 10px;
+    cursor: pointer;
+    color: white;
+    background-color: blueviolet;
+    border: none;
+}
+.Buttonbody button:hover{
+    background-color:rgb(81, 30, 130); 
+    transition: all linear .3s;
+}
